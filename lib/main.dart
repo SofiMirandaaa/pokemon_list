@@ -18,7 +18,11 @@ class _scoreboardState extends State<scoreboard> {
               Column(
                 children: [
                   Stack(
-                    children: [Container()],
+                    children: [
+                      Container(
+                        padding: const EdgeInsets.only(bottom: 15),
+                      )
+                    ],
                   )
                 ],
               )
