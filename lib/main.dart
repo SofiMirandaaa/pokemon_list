@@ -10,6 +10,10 @@ class scoreboard extends StatefulWidget {
 class _scoreboardState extends State<scoreboard> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Container(
+      child: Column(
+        children: [],
+      ),
+    );
   }
 }
