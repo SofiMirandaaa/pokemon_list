@@ -21,6 +21,7 @@ class _scoreboardState extends State<scoreboard> {
                     children: [
                       Container(
                         padding: const EdgeInsets.only(bottom: 15),
+                        decoration: const BoxDecoration(color: Colors.blue),
                       )
                     ],
                   )
