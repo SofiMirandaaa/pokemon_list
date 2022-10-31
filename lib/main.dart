@@ -25,6 +25,7 @@ class _scoreboardState extends State<scoreboard> {
                         child: Column(children: [
                           Row(
                             mainAxisAlignment: MainAxisAlignment.start,
+                            children: [Container()],
                           )
                         ]),
                       )
