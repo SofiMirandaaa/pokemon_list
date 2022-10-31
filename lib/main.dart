@@ -12,7 +12,19 @@ class _scoreboardState extends State<scoreboard> {
   Widget build(BuildContext context) {
     return Container(
       child: Column(
-        children: [],
+        children: [
+          Card(
+            child: Column(children: [
+              Column(
+                children: [
+                  Stack(
+                    children: [Container()],
+                  )
+                ],
+              )
+            ]),
+          )
+        ],
       ),
     );
   }
