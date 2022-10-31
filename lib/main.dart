@@ -22,6 +22,11 @@ class _scoreboardState extends State<scoreboard> {
                       Container(
                         padding: const EdgeInsets.only(bottom: 15),
                         decoration: const BoxDecoration(color: Colors.blue),
+                        child: Column(children: [
+                          Row(
+                            mainAxisAlignment: MainAxisAlignment.start,
+                          )
+                        ]),
                       )
                     ],
                   )
